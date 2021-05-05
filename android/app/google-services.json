@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519709404641",
+    "project_id": "vaccine-79730",
+    "storage_bucket": "vaccine-79730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519709404641:android:f5955f19ac5e613af9f6a0",
+        "android_client_info": {
+          "package_name": "com.getcapacitor.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519709404641-en6j0n0p9ulf62ilc43dij1agnuj7f89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIjmBCVLd99ZjqhJsHRjWGlZplju7p5Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519709404641-en6j0n0p9ulf62ilc43dij1agnuj7f89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
