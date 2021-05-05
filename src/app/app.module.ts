@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
-import { FCM } from '@ionic-native/fcm/ngx'
+import { FCM } from 'cordova-plugin-fcm-with-dependecy-updated/ionic/ngx'
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
