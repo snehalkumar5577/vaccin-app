@@ -25,8 +25,11 @@ export class HomePage {
       })
       .then(function (myJson) {
         var sessions = myJson.sessions
-        console.log(sessions[0].name)
-        return sessions[0].name
+        if (sessions[0]){
+          console.log(sessions[0].name)
+          return sessions[0].name
+        }
+        return null        
       })
       .catch(function (error) {
         console.log("Error: " + error);
