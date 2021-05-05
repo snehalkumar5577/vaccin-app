@@ -25,14 +25,19 @@ export class HomePage {
       })
       .then(function (myJson) {
         var sessions = myJson.sessions
+        if (myJson.error){
+          console.log(myJson.error)
+          return myJson.error
+        }
         if (sessions[0]){
           console.log(sessions[0].name)
           return sessions[0].name
         }
-        return null        
+        return 'No slots available'        
       })
       .catch(function (error) {
         console.log("Error: " + error);
+        return error;
       });
 
     function getResult() {
